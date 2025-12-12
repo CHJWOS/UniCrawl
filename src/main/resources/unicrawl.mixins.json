@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.chronir.unicrawl.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "unicrawl.refmap.json",
+  "mixins": [
+    "ParcoolCrawlMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
